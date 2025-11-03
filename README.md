@@ -36,10 +36,38 @@ I structured the research around **ten guiding questions**, each targeting a spe
 
 These questions were validated together with logistics leadership to ensure alignment with both **operational priorities** and **strategic decision-making**.
 
-## Executive Summary (ДОПРАЦЮВАТИ)
+## Executive Summary
+
+**1. Delivery speed improved, but reliability declined.**
+The average delivery time decreased from 13.2 days (2017) to 11.7 days (2018), yet the share of delayed orders rose from 6.6% to 9.4%.
+→ Deliveries became faster on average, but less consistent.
+
+**2. Delays became shorter but more frequent.**
+The average delay duration dropped from 14.3 to 8.9 days, while delayed deliveries increased sixfold (1.5% → 9.4%).
+→ Logistics teams reacted quicker but struggled under higher order volumes.
+
+**3. Higher freight costs did not lead to faster delivery.**
+Although the average freight value grew by 5%, the correlation between freight cost and delivery time remained weak (r ≈ 0.2).
+→ Customers paid more without experiencing faster or more predictable service.
+
+**4. Regional differences remained significant.**
+Southern and northern states (e.g., RS, AM) showed average delivery times of ≈16 days, compared to ≈9 days in São Paulo.
+→ Infrastructure and distance continue to be critical bottlenecks.
+
+**5. Customer satisfaction depended on reliability, not speed.**
+On-time deliveries received an average review score of 4.3 / 5, while delayed ones averaged 2.6 / 5 — a 40% gap.
+→ Even short delays had a strong negative effect on perceived service quality.
+
+**6. High-value orders were more likely to face delays.**
+Delayed deliveries had an average order value 12–24 BRL higher than on-time ones.
+→ Premium customers experienced more frequent issues, posing a reputational risk.
+
+**7. Operational growth increased pressure on logistics.**
+Monthly orders tripled between 2016 and 2018, temporarily raising delivery times during peak months (e.g., November, December).
+→ The system improved overall efficiency but lagged in adaptive capacity during demand spikes.
 
 
-**Tableau link:**
+*Tableau link:*
 
 ## Insights Deep Dive
 
@@ -501,5 +529,49 @@ From a strategic standpoint, company should:
 
 1. **Monitor delivery time elasticity** — how much efficiency drops per 1K additional orders.  
 2. **Implement predictive capacity planning** for seasonal peaks.  
-3. **Continue automation and route optimization** to sustain efficiency during growth phases.  
+3. **Continue automation and route optimization** to sustain efficiency during growth phases.
 
+## **Recommendations**
+
+1. **Prioritize delivery reliability over speed.**  
+   Although average delivery time improved by **12%**, the share of delayed orders increased by **40%**.  
+   → Focus on *predictability* rather than raw speed — align estimated delivery windows with actual performance to restore customer trust.
+
+2. **Implement dynamic forecasting models for demand peaks.**  
+   Delivery times increased during high-volume months (e.g., November–December).  
+   → Introduce *capacity forecasting and flexible workforce planning* to maintain performance under seasonal pressure.
+
+3. **Reassess freight pricing to reflect service quality.**  
+   Freight value grew by **5%**, yet correlation with speed was weak (**r ≈ 0.2**).  
+   → Adjust pricing tiers to ensure higher fees deliver tangible benefits (e.g., priority handling, insurance, or guaranteed slots).
+
+4. **Differentiate service levels by order value.**  
+   High-value orders (≈12–24 BRL more expensive) faced more frequent delays.  
+   → Introduce *premium delivery tiers* for top-value customers, with stricter SLAs or proactive compensation for delays.
+
+5. **Address regional logistics disparities.**  
+   Northern and southern states averaged **16 days** per delivery versus **9 days** in São Paulo.  
+   → Develop *regional hubs or micro-fulfillment centers* to reduce distances and improve parity in delivery performance.
+
+6. **Enhance communication and transparency with customers.**  
+   Customers penalize unpredictability — late orders scored **2.6 / 5** vs **4.3 / 5** for on-time.  
+   → Provide real-time tracking, automated delay notifications, and accurate estimated delivery windows to manage expectations.
+
+7. **Refine delivery time predictions.**  
+   The average deviation between actual and estimated delivery fell from **+1.7 to +0.9 days**, but inconsistency remains.  
+   → Improve *data-driven forecasting models* using historical trends, regional data, and carrier performance metrics.
+
+8. **Focus optimization efforts on bulky, high-delay categories.**  
+   Categories such as *furniture_decor* and *bed_bath_table* showed the longest delivery times (≈15 days).  
+   → Prioritize these segments for *process redesign, packaging standardization, and warehouse placement optimization*.
+
+9. **Use freight and delivery analytics for performance monitoring.**  
+   Weak correlation between freight cost and speed suggests inefficient logistics pricing.  
+   → Track key logistics KPIs monthly (delay rate, freight-to-time ratio, satisfaction) to continuously evaluate improvements.
+
+10. **Establish customer feedback loops for service recovery.**  
+   Since review scores are highly sensitive to delivery experience, small-scale issues can disproportionately affect brand reputation.  
+   → Create *automated surveys and post-delivery feedback processes* to identify issues early and close the service gap.
+---
+
+Original dataset source: https://www.kaggle.com/datasets/terencicp/e-commerce-dataset-by-olist-as-an-sqlite-database
