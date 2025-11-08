@@ -83,13 +83,13 @@ It contains over **100,000 unique customer orders**, each with detailed informat
 - **Order Items (`order_items`)** — item-level details including product price and freight value.  
 - **Customers (`customers`)** — anonymized customer IDs, city, and state information.  
 - **Products (`products`)** — category-level product attributes (e.g., type, weight, dimensions).  
-- **Sellers (`sellers`)** — vendor identifiers and seller location data.  
 - **Order Reviews (`order_reviews`)** — customer feedback and rating scores related to delivery experience.  
-- **Geolocation (`geolocation`)** — mapping of zip codes to latitude/longitude coordinates for regional aggregation.
 
 A simplified schema of the key relationships used in this analysis is shown below:
 
-додати схему
+![brazilian_tables](https://github.com/user-attachments/assets/c502dcd4-6e13-45c6-9ecd-df6fec58b777)
+
+
 
 ## Year-over-Year Performance Overview (2016–2018)
 
