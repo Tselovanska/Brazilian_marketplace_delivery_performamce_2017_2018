@@ -67,7 +67,7 @@ Monthly orders tripled between 2016 and 2018, temporarily raising delivery times
 → The system improved overall efficiency but lagged in adaptive capacity during demand spikes.
 
 
-*Tableau link:*
+*Tableau link:* [Brazilian marketplace delivery performance](https://public.tableau.com/app/profile/anastasiia.tselovanska/viz/Brazilianmarketplacedeliveryperformance/Dashboard1)
 
 ## Insights Deep Dive
 
@@ -87,7 +87,7 @@ It contains over **100,000 unique customer orders**, each with detailed informat
 
 A simplified schema of the key relationships used in this analysis is shown below:
 
-![brazilian_tables](https://github.com/user-attachments/assets/c502dcd4-6e13-45c6-9ecd-df6fec58b777)
+<kbd>![brazilian_tables](https://github.com/user-attachments/assets/c502dcd4-6e13-45c6-9ecd-df6fec58b777)</kbd>
 
 
 
@@ -276,7 +276,9 @@ Even small percentages of late orders can disproportionately affect the company�
 In Tableau, the **month-over-month view** shows clear correlations between **spikes in average delivery days** and **drops in review scores**, especially around **late 2017 and Q1 2018**, indicating **seasonal pressure or capacity bottlenecks** that impacted service quality.
 
 **Tableau Visualization**
-<img width="828" height="344" alt="Знімок екрана 2025-11-03 о 11 58 57" src="https://github.com/user-attachments/assets/bfa52e48-fce8-44ce-83c8-5e37449b9c47" />
+
+<kbd><img width="828" height="344" alt="Знімок екрана 2025-11-03 о 11 58 57" src="https://github.com/user-attachments/assets/bfa52e48-fce8-44ce-83c8-5e37449b9c47" /></kbd>
+
 *(Screenshot from Tableau dashboard showing monthly correlation between average review score and average delivery time)*
 
 
@@ -386,7 +388,8 @@ To strengthen customer perception and pricing fairness, company could:
 - Clearly communicate **what higher costs guarantee** — such as insurance or express handling.
 
 **Tableau Visualization**
-<img width="845" height="290" alt="Знімок екрана 2025-11-03 о 12 20 45" src="https://github.com/user-attachments/assets/2f2ddf08-83c2-4ca0-8c31-14424764634e" />
+
+<kbd><img width="845" height="290" alt="Знімок екрана 2025-11-03 о 12 20 45" src="https://github.com/user-attachments/assets/2f2ddf08-83c2-4ca0-8c31-14424764634e" /></kbd>
 
 *(Screenshot from Tableau dashboard showing monthly trend: “Delivery Cost Efficiency — Avg Delivery Days vs Freight Value”)*
 
@@ -508,7 +511,7 @@ It highlights whether **growth in demand** has led to **slower delivery efficien
 
 **Tableau Visualization**
 
-<img width="1666" height="508" alt="image" src="https://github.com/user-attachments/assets/52a9b54b-238a-4a59-a6e9-f64edc4fa09f" />
+<kbd><img width="1666" height="508" alt="image" src="https://github.com/user-attachments/assets/52a9b54b-238a-4a59-a6e9-f64edc4fa09f" /></kbd>
 
 **Insights**
 
